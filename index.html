@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+    <link rel="icon" href="images/logo.png">
+</head>
+<body>
+<header>
+    <div class="container">
+        <a href=""></a>
+    </div>
+</header>
+
+<main>
+    <div class="container main">
+        <h1>Olá! Seja bem-vindo!</h1>
+        <h3>Se ja tem um cadastro, <a href="nextindex.html">clique aqui</a>.</h3>
+
+        <form action="nextindex.html" method="post">
+            <fieldset>
+                <div class="left_side">
+                    <label>
+                        Nome:<br>
+                        <input class="form_items" autofocus minlength="2" type="text" name="nome" placeholder="Primeiro Nome"><br>
+                    </label>                
+                    <label>
+                        E-mail:<br>
+                        <input class="form_items" type="email" placeholder="Email principal" name="email"><br>
+                    </label>                
+                    <label>
+                        Digite sua senha:<br>
+                        <input class="form_items" type="password" minlength="2" placeholder="Digite uma senha" name="senha"><br>
+                    </label>
+                    <label>
+                        Celular:<br>
+                        <input class="form_items" type="tel" placeholder="Digite seu número" name="celular"><br>
+                    </label>
+                    
+                </div>
+                <div class="right_side">
+                    <label>
+                        Sobrenome:<br>
+                        <input class="form_items" autofocus minlength="2" type="text" name="sobrenome" placeholder="Seu sobrenome é"><br>
+                    </label>
+                    <label>
+                        Confirme o E-mail:<br>
+                    <input class="form_items" type="email" placeholder="Confirme seu email" name="email"><br>
+                    </label>
+                    <label>
+                        Confirme sua senha:<br>
+                        <input class="form_items" type="password" minlength="2" placeholder="Digite uma senha" name="senha"><br>
+                    </label>
+                    <label>
+                        Data de nascimento:<br>
+                        <input class="form_items" type="date" placeholder="Data de Nascimento" name="data"><br>
+                    </label>
+
+                </div>
+            </fieldset>
+            <label>
+                <input  type="checkbox" name="check" required>
+                Ao clicar em "Próximo" e continuar com o seu cadastro, você nos<br> 
+                autoriza a coletar seus dados pessoais de acordo com a nossa Política de Privacidade, <br>
+                com o objetivo de comunicar informações sobre o processo de abertura da sua conta.<br>
+            </label>
+            <label>
+                <input id="botao" type="submit"  name="submit" value="Inscrever-se">
+            </label>
+        </form>
+    </div>
+</main>
+
+<footer>
+
+</footer>
+</body>
